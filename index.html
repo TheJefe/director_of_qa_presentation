@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/theme/league.css" id="theme">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -36,6 +36,8 @@
       // More info https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
         history: true,
+        parallaxBackgroundImage: 'media/reveal-parallax-1.jpg',
+        parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px",
         keyboard: {
             48: function() { Reveal.slide( 0 ) },
         },

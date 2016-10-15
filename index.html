@@ -36,6 +36,9 @@
       // More info https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
         history: true,
+        keyboard: {
+            48: function() { Reveal.slide( 0 ) },
+        },
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [

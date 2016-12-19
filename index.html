@@ -42,6 +42,9 @@
         keyboard: {
             48: function() { Reveal.slide( 0 ) },
         },
+        menu: {
+            openButton: false,
+        },
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
@@ -51,6 +54,7 @@
           { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: 'socket.io/socket.io.js', async: true },
           { src: 'plugin/notes-server/client.js', async: true },
+          { src: 'plugin/reveal.js-menu/menu.js' },
         ]
       });
     </script>

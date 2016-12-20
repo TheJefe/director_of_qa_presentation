@@ -20,14 +20,27 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-	</head>
-	<body>
+    <style>
+     #footer {
+         position: absolute;
+         display: block;
+         height: 23px;
+         bottom: 23px;
+         left: 255px;
+         font-weight: bold;
+     }
+    </style>
+  </head>
+  <body>
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
 				<section>Slide 2</section>
+        <div id="footer" style="display: inline;">
+            <i class="fa fa-twitter fw" aria-hidden="true" style="display: inline;"></i><a href="https://twitter.com/jeffkoenig">JeffKoenig</a> | <i class="fa fa-github" aria-hidden="true" style="display: inline;"></i><a href="https://github.com/TheJefe">TheJefe</a>
+        </div>
 			</div>
-		</div>
+    </div>
 
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
@@ -37,7 +50,7 @@
       Reveal.initialize({
         history: true,
         transition: 'convex', // none/fade/slide/convex/concave/zoom
-        parallaxBackgroundImage: 'media/reveal-parallax-1.jpg',
+       parallaxBackgroundImage: 'media/reveal-parallax-1.jpg',
         parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px",
         keyboard: {
             48: function() { Reveal.slide( 0 ) },

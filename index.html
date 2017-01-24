@@ -44,9 +44,10 @@
               <section data-markdown>
                   <script type="text/template">
                    ## Qualifications
-                   - Worked 7 Years in a QA Lead Capacity<!-- .element: class="fragment"-->
-                   - 4 of those Years with the Manager title<!-- .element: class="fragment"-->
-                   - Implemented Continuous Integration from the ground up. X 2<!-- .element: class="fragment"-->
+                   - Worked 7 Years in a QA Lead Capacity<!-- .element: class="fragment" data-fragment-index="1"-->
+                   - 4 of those Years with the Manager title<!-- .element: class="fragment" data-fragment-index="2"-->
+                    - with direct reports<!-- .element: class="fragment" data-fragment-index="2"-->
+                   - Implemented Continuous Integration from the ground up. X 2<!-- .element: class="fragment" data-fragment-index="3"-->
                   </script>
               </section>
               <section data-markdown>
@@ -60,8 +61,10 @@
           <section data-markdown>
               <script type="text/template">
                ## Preface
-               This plan and strategy is very generalized and may not entirely apply to Imagine Learning and will adapt and change as I learn our specific needs
               </script>
+              <aside class="notes">
+                  This plan and strategy is very generalized and may not entirely apply to Imagine Learning and will adapt and change as I learn our specific needs
+              </aside>
           </section>
           <section data-markdown>
               <script type="text/template">
@@ -88,6 +91,8 @@
                   <aside class="notes">
                    - Strengths and weakness's
                    - Leverage knowledge and experiences
+                   - Ensure they have the tools they need to be effective
+                   - Make sure we are testing in the most appropriate environment
                   </aside>
               </section>
               <section data-markdown>
@@ -109,6 +114,9 @@
                    ## Get to know Customer Support
                    - Understand what kind of issues are common
                   </script>
+                  <aside class="notes">
+                      _ Defect tracking/management with PPQ
+                  </aside>
               </section>
               <section data-markdown>
                   <script type="text/template">
@@ -132,9 +140,11 @@
                   <script type="text/template">
                    ### Short Term Goal
                    ## Increased Deployment Frequency
+                   - Figure out the fears of deployment<!-- .element: class="fragment"-->
                    - Solidify the process<!-- .element: class="fragment"-->
+                   - Post Deployment Tests<!-- .element: class="fragment"-->
                    - Implement one click deploys<!-- .element: class="fragment"-->
-                   - Work out the kinks<!-- .element: class="fragment"-->
+                   - Work out the kinks and build confidence and trust<!-- .element: class="fragment"-->
                    - Deploy often<!-- .element: class="fragment"-->
                   </script>
               </section>
@@ -160,7 +170,22 @@
               <section data-markdown>
                   <script type="text/template">
                    ### Long Term Goal
+                   ## Key Performance Indicators
+                  </script>
+                  <aside class="notes">
+                      - Depends on the team and culture
+                      - Change throughput
+                      - Support issues per release
+                      - Peer Review
+                  </aside>
+              </section>
+              <section data-markdown>
+                  <script type="text/template">
+                   ### Long Term Goal
                    ## Ensure Test Coverage
+                  </script>
+                  <aside class="notes">
+                   - Focus on automated tests for the student ui
                    - Performance Testing
                    - Static Analysis
                    - Code Coverage
@@ -168,7 +193,16 @@
                    - Security Testing
                    - User Acceptance Testing
                    - A/B Testing
+                  </aside>
+              </section>
+              <section data-markdown>
+                  <script type="text/template">
+                   ### Long Term Goal
+                   ## Fill in Weak Spots with Automation
                   </script>
+                  <aside class="notes">
+                      Upgrade testing
+                  </aside>
               </section>
               <section data-markdown>
                   <script type="text/template">
@@ -186,10 +220,12 @@
                   <script type="text/template">
                    ### Long Term Goal
                    ## Champion the remote working culture
-                   - Promotes Stronger Communication and Documentation<!-- .element: class="fragment"-->
-                   - Leverage the right tools<!-- .element: class="fragment"-->
-                   - Be in the office when it is important<!-- .element: class="fragment"-->
                   </script>
+                  <aside class="notes">
+                      - Promotes Stronger Communication and Documentation<!-- .element: class="fragment"-->
+                      - Leverage the right tools<!-- .element: class="fragment"-->
+                      - Be in the office when it is important<!-- .element: class="fragment"-->
+                  </aside>
               </section>
           </section>
           <section data-markdown>
@@ -200,6 +236,18 @@
                - Focused Manual Efforts
                - Company Wide Quality
               </script>
+          </section>
+          <section>
+              <ol>
+               <li>Obsess over Customers</li>
+               <li>Be innovative and change our world</li>
+               <li>Let passion and belief drive what we do</li>
+               <li>Do what's right rather than whats easy</li>
+               <li>Stand United: All for one, and one for all</li>
+               <li>Maintain a quiet confidence in our abilities</li>
+               <li>Have a whole lot of fun</li>
+               <li class="fragment grow highlight-green">Quality</li>
+              </ol>
           </section>
           <section data-markdown>
               <script type="text/template">
@@ -224,7 +272,7 @@
       Reveal.initialize({
         history: true,
         transition: 'convex', // none/fade/slide/convex/concave/zoom/cube/page
-       parallaxBackgroundImage: 'media/reveal-parallax-1.jpg',
+        parallaxBackgroundImage: 'media/reveal-parallax-1.jpg',
         parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px",
         keyboard: {
             48: function() { Reveal.slide( 0 ) },

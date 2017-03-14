@@ -1,8 +1,8 @@
-# Base Presentation Setup
+# Quality Assurance Strategy
 
-This repository is the basic presentation setup with a my customizations of [Reveal.js](https://github.com/hakimel/reveal.js). This is setup so I can easily start new presentations by cloning this repo.
+This is a presentation I gave about a general Quality Assurance Strategy as part of an interview for a Director of Quality Assurance Position.
 
-#### [View Slides](http://TheJefe.github.io/reveal.js)
+#### [View Slides](https://thejefe.github.io/director_of_qa_presentation/)
 
 ## Presentation Frameworks is [Reveal.js](https://github.com/hakimel/reveal.js)
 
@@ -14,12 +14,12 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
 
 1. Clone the repository
    ```sh
-   $ git clone https://github.com/TheJefe/picture_this.git
+   $ git clone https://github.com/TheJefe/director_of_qa_presentation.git
    ```
 
 1. Navigate to the picture_this folder
    ```sh
-   $ cd picture_this
+   $ cd director_of_qa_presentation
    ```
 
 1. Install dependencies
